@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'WC Mano Negra Bta';
+    src: url('font/WCManoNegraBta.ttf'); 
+}
+@font-face {
+    font-family: 'Aleo Bold';
+    src: url('font/Aleo-Bold.otf'); 
+}
+@font-face {
+    font-family: 'Aleo Bold Italic';
+    src: url('font/Aleo-BoldItalic.otf');
+}
+@font-face {
+    font-family: 'Aleo Italic';
+    src: url('font/Aleo-Italic.otf');
+}
+@font-face {
+    font-family: 'Aleo Light';
+    src: url('font/Aleo-Light.otf');
+}
+@font-face {
+    font-family: 'Aleo Light Italic';
+    src: url('font/Aleo-LightItalic.otf');
+}
+@font-face {
+    font-family: 'Aleo Regular';
+    src: url('font/Aleo-Regular.otf');
+}
+body{font-family: Aleo Regular;font-size: 14px;color:#3b3b3b;}
+.wc{font-family: WC Mano Negra Bta;}
+.aleob{font-family: Aleo Bold;}
+.aleobi{font-family: Aleo Bold Italic;}
+.aleoi{font-family: Aleo Italic;}
+.aleol{font-family: Aleo Light;}
+.aleoli{font-family: Aleo Light Italic;}
+.aleor{font-family: Aleo Regular;}
+
+
+/*start menu*/
+.reset{margin:0;padding: 0;}
+.bgfff{background: #fff;}
+.font16{font-size: 16px;}
+.font40{font-size: 40px;}
+.font14{font-size:14px;}
+.textf3{color: #f34949;}
+.text3a{color:#3a3a3a;}
+.text3b {color:#3b3b3b;}
+#header ul li a{margin: 0;padding: 0;margin-left:48px;line-height: 110px;}
+#header .logo{margin: 0;padding: 0;line-height: 110px;}
+#header ul li a:first-child{padding:0;}
+#header .navbar{border: none;}
+@media screen and (max-width: 992px){
+    #header ul li a{margin: 0;padding: 0;margin-left:10px;line-height: 40px;}
+    #header .logo{margin: 0;padding: 0;line-height: 50px;}
+}
+/*end menu*/
+
+
+/*start banner*/
+div.bordermenu{border-bottom: 4px solid #f34949;}
+.banner{width: 100%;}
+.themenu{width:155px;height: 71px;background: url('img/themenu.png');}
+.font20{font-size: 20px;}
+.textfff{color:#fff;}
+.text-themenu{padding: 13px 0 0 30px;}
+/*end banner*/
+
+
+/*start giá*/
+.margin-top-md-80{margin-top: 80px;}
+.text55{font-size: 16px;color:#555555;}
+.float-left{float: left;}
+.float-right{float: right;}
+.border-ngang{height: 8px;border-bottom: 1px solid #e3e1e1;}
+.font12{font-size: 12px;}
+.textb7{color:#b7b7b7;}
+.margin-top-md90{margin-top: 90px;}
+.load-more{padding: 0 40px;border:1px solid #d7d5d5;}
+.text-load{line-height: 34px;}
+button{border:none;background: transparent;border:1px solid #d7d5d5;padding: 0 30px;}
+.lineheight34{line-height: 34px;}
+a:hover{text-decoration: none;}
+/*end giá*/
+
+
+/*start các món ăn*/
+.margin-top-md200{margin-top: 200px;}
+.margin-top-md76{margin-top: 76px;}
+@media screen and (max-width: 992px){
+    .margin-top-md200{margin-top: 60px;}
+    .margin-top-md76{margin-top: 50px;}
+}
+.font20{font-size: 20px;}
+.text3b{color:#3b3b3b;}
+/*end các món ăn*/
+
+
+/*start footer*/
+.texteb{color:#ebebeb;}
+.font35{font-size: 35px;}
+
+/*end footer*/
